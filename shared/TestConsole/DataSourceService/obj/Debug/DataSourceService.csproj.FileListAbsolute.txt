@@ -1,0 +1,4 @@
+D:\kellers\projects\shared\TestConsole\DataSourceService\bin\Debug\DataSourceService.exe
+D:\kellers\projects\shared\TestConsole\DataSourceService\bin\Debug\DataSourceService.pdb
+D:\kellers\projects\shared\TestConsole\DataSourceService\obj\Debug\DataSourceService.exe
+D:\kellers\projects\shared\TestConsole\DataSourceService\obj\Debug\DataSourceService.pdb

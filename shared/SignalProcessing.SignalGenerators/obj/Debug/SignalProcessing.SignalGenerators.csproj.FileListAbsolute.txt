@@ -1,0 +1,4 @@
+D:\kellers\projects\shared\SignalProcessing.SignalGenerators\bin\Debug\SignalProcessing.SignalGenerators.dll
+D:\kellers\projects\shared\SignalProcessing.SignalGenerators\bin\Debug\SignalProcessing.SignalGenerators.pdb
+D:\kellers\projects\shared\SignalProcessing.SignalGenerators\obj\Debug\SignalProcessing.SignalGenerators.dll
+D:\kellers\projects\shared\SignalProcessing.SignalGenerators\obj\Debug\SignalProcessing.SignalGenerators.pdb

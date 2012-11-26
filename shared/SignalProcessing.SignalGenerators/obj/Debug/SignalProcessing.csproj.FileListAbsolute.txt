@@ -1,0 +1,9 @@
+D:\kellers\projects\shared\SignalGenerators\bin\Debug\SignalGenerators.dll
+D:\kellers\projects\shared\SignalGenerators\bin\Debug\SignalGenerators.pdb
+D:\kellers\projects\shared\SignalGenerators\obj\Debug\SignalProcessing.csprojResolveAssemblyReference.cache
+D:\kellers\projects\shared\SignalGenerators\obj\Debug\SignalGenerators.dll
+D:\kellers\projects\shared\SignalGenerators\obj\Debug\SignalGenerators.pdb
+D:\kellers\projects\shared\SignalGenerators\bin\Debug\CommonFunctions.DataLogger.dll
+D:\kellers\projects\shared\SignalGenerators\bin\Debug\CommonFunctions.DataLogger.Contracts.dll
+D:\kellers\projects\shared\SignalGenerators\bin\Debug\CommonFunctions.DataLogger.pdb
+D:\kellers\projects\shared\SignalGenerators\bin\Debug\CommonFunctions.DataLogger.Contracts.pdb

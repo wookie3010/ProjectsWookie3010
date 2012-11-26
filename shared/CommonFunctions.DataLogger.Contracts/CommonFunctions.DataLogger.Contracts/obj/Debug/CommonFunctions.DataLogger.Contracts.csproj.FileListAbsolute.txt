@@ -1,0 +1,4 @@
+D:\kellers\projects\shared\CommonFunctions.Contracts\CommonFunctions.Contracts\bin\Debug\CommonFunctions.DataLogger.Contracts.dll
+D:\kellers\projects\shared\CommonFunctions.Contracts\CommonFunctions.Contracts\bin\Debug\CommonFunctions.DataLogger.Contracts.pdb
+D:\kellers\projects\shared\CommonFunctions.Contracts\CommonFunctions.Contracts\obj\Debug\CommonFunctions.DataLogger.Contracts.dll
+D:\kellers\projects\shared\CommonFunctions.Contracts\CommonFunctions.Contracts\obj\Debug\CommonFunctions.DataLogger.Contracts.pdb

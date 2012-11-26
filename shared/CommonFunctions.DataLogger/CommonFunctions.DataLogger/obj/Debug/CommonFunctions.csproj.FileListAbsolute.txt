@@ -1,0 +1,4 @@
+D:\kellers\projects\shared\CommonFunctions\CommonFunctions\bin\Debug\CommonFunctions.dll
+D:\kellers\projects\shared\CommonFunctions\CommonFunctions\bin\Debug\CommonFunctions.pdb
+D:\kellers\projects\shared\CommonFunctions\CommonFunctions\obj\Debug\CommonFunctions.dll
+D:\kellers\projects\shared\CommonFunctions\CommonFunctions\obj\Debug\CommonFunctions.pdb
