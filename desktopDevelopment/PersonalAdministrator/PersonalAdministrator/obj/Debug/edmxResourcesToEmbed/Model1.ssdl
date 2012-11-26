@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PersonalAdministratorModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="PersonalAdministratorModelStoreContainer">
+    <EntitySet Name="Constants_Floors" EntityType="PersonalAdministratorModel.Store.Constants_Floors" store:Type="Tables" Schema="dbo" Table="Constants.Floors" />
+    <EntitySet Name="Constants_MeterClasses" EntityType="PersonalAdministratorModel.Store.Constants_MeterClasses" store:Type="Tables" Schema="dbo" Table="Constants.MeterClasses" />
+    <EntitySet Name="Constants_MeterLocations" EntityType="PersonalAdministratorModel.Store.Constants_MeterLocations" store:Type="Tables" Schema="dbo" Table="Constants.MeterLocations" />
+    <EntitySet Name="Data_MeterValues" EntityType="PersonalAdministratorModel.Store.Data_MeterValues" store:Type="Tables" Schema="dbo" Table="Data.MeterValues" />
+    <EntitySet Name="Entities_ColdWaterMeterRecords" EntityType="PersonalAdministratorModel.Store.Entities_ColdWaterMeterRecords" store:Type="Tables" Schema="dbo" Table="Entities.ColdWaterMeterRecords" />
+    <AssociationSet Name="FK_Constants_MeterLocations_Constants_Floors" Association="PersonalAdministratorModel.Store.FK_Constants_MeterLocations_Constants_Floors">
+      <End Role="Constants_Floors" EntitySet="Constants_Floors" />
+      <End Role="Constants_MeterLocations" EntitySet="Constants_MeterLocations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Data_MeterValues_Constants_MeterClasses1" Association="PersonalAdministratorModel.Store.FK_Data_MeterValues_Constants_MeterClasses1">
+      <End Role="Constants_MeterClasses" EntitySet="Constants_MeterClasses" />
+      <End Role="Data_MeterValues" EntitySet="Data_MeterValues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Entities_ColdWaterMeterRecords_Constants_MeterLocations" Association="PersonalAdministratorModel.Store.FK_Entities_ColdWaterMeterRecords_Constants_MeterLocations">
+      <End Role="Constants_MeterLocations" EntitySet="Constants_MeterLocations" />
+      <End Role="Entities_ColdWaterMeterRecords" EntitySet="Entities_ColdWaterMeterRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Entities_ColdWaterMeterRecords_Data_MeterValues" Association="PersonalAdministratorModel.Store.FK_Entities_ColdWaterMeterRecords_Data_MeterValues">
+      <End Role="Data_MeterValues" EntitySet="Data_MeterValues" />
+      <End Role="Entities_ColdWaterMeterRecords" EntitySet="Entities_ColdWaterMeterRecords" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Constants_Floors">
+    <Key>
+      <PropertyRef Name="FloorId" />
+    </Key>
+    <Property Name="FloorId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Floor" Type="nvarchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="Constants_MeterClasses">
+    <Key>
+      <PropertyRef Name="MeterClassId" />
+    </Key>
+    <Property Name="MeterClassId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Class" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Unit" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Constants_MeterLocations">
+    <Key>
+      <PropertyRef Name="MeterLocationId" />
+    </Key>
+    <Property Name="MeterLocationId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Location" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FloorId" Type="int" Nullable="false" />
+    <Property Name="MeterIdentifier" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Timestamp" Type="datetime" Nullable="false" />
+    <Property Name="Remarks" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Data_MeterValues">
+    <Key>
+      <PropertyRef Name="MeterValueId" />
+    </Key>
+    <Property Name="MeterValueId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Value" Type="float" Nullable="false" />
+    <Property Name="MeterClassId" Type="int" Nullable="false" />
+    <Property Name="Timestamp" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Entities_ColdWaterMeterRecords">
+    <Key>
+      <PropertyRef Name="ColdWaterMeterRecordId" />
+    </Key>
+    <Property Name="ColdWaterMeterRecordId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MeterValueId" Type="int" Nullable="false" />
+    <Property Name="MeterLocationId" Type="int" Nullable="false" />
+    <Property Name="Remarks" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Constants_MeterLocations_Constants_Floors">
+    <End Role="Constants_Floors" Type="PersonalAdministratorModel.Store.Constants_Floors" Multiplicity="1" />
+    <End Role="Constants_MeterLocations" Type="PersonalAdministratorModel.Store.Constants_MeterLocations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constants_Floors">
+        <PropertyRef Name="FloorId" />
+      </Principal>
+      <Dependent Role="Constants_MeterLocations">
+        <PropertyRef Name="FloorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Data_MeterValues_Constants_MeterClasses1">
+    <End Role="Constants_MeterClasses" Type="PersonalAdministratorModel.Store.Constants_MeterClasses" Multiplicity="1" />
+    <End Role="Data_MeterValues" Type="PersonalAdministratorModel.Store.Data_MeterValues" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constants_MeterClasses">
+        <PropertyRef Name="MeterClassId" />
+      </Principal>
+      <Dependent Role="Data_MeterValues">
+        <PropertyRef Name="MeterClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Entities_ColdWaterMeterRecords_Constants_MeterLocations">
+    <End Role="Constants_MeterLocations" Type="PersonalAdministratorModel.Store.Constants_MeterLocations" Multiplicity="1" />
+    <End Role="Entities_ColdWaterMeterRecords" Type="PersonalAdministratorModel.Store.Entities_ColdWaterMeterRecords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Constants_MeterLocations">
+        <PropertyRef Name="MeterLocationId" />
+      </Principal>
+      <Dependent Role="Entities_ColdWaterMeterRecords">
+        <PropertyRef Name="MeterLocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Entities_ColdWaterMeterRecords_Data_MeterValues">
+    <End Role="Data_MeterValues" Type="PersonalAdministratorModel.Store.Data_MeterValues" Multiplicity="1" />
+    <End Role="Entities_ColdWaterMeterRecords" Type="PersonalAdministratorModel.Store.Entities_ColdWaterMeterRecords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Data_MeterValues">
+        <PropertyRef Name="MeterValueId" />
+      </Principal>
+      <Dependent Role="Entities_ColdWaterMeterRecords">
+        <PropertyRef Name="MeterValueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

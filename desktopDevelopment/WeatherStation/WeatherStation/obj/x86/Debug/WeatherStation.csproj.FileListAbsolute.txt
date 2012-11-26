@@ -1,0 +1,9 @@
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\bin\Debug\WeatherStationDatabase.sdf
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\bin\Debug\WeatherStation.exe.config
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\bin\Debug\WeatherStation.exe
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\bin\Debug\WeatherStation.pdb
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\obj\x86\Debug\WeatherStation.MainForm.resources
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\obj\x86\Debug\WeatherStation.Properties.Resources.resources
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\obj\x86\Debug\WeatherStation.csproj.GenerateResource.Cache
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\obj\x86\Debug\WeatherStation.exe
+D:\kellers\projects\desktopDevelopment\WeatherStation\WeatherStation\obj\x86\Debug\WeatherStation.pdb

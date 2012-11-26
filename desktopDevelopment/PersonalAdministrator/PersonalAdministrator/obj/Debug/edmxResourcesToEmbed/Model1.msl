@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PersonalAdministratorModelStoreContainer" CdmEntityContainer="PersonalAdministratorEntities">
+    <EntitySetMapping Name="Constants_Floors">
+      <EntityTypeMapping TypeName="PersonalAdministratorModel.Constants_Floors">
+        <MappingFragment StoreEntitySet="Constants_Floors">
+          <ScalarProperty Name="FloorId" ColumnName="FloorId" />
+          <ScalarProperty Name="Floor" ColumnName="Floor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constants_MeterClasses">
+      <EntityTypeMapping TypeName="PersonalAdministratorModel.Constants_MeterClasses">
+        <MappingFragment StoreEntitySet="Constants_MeterClasses">
+          <ScalarProperty Name="MeterClassId" ColumnName="MeterClassId" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Constants_MeterLocations">
+      <EntityTypeMapping TypeName="PersonalAdministratorModel.Constants_MeterLocations">
+        <MappingFragment StoreEntitySet="Constants_MeterLocations">
+          <ScalarProperty Name="MeterLocationId" ColumnName="MeterLocationId" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="FloorId" ColumnName="FloorId" />
+          <ScalarProperty Name="MeterIdentifier" ColumnName="MeterIdentifier" />
+          <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Data_MeterValues">
+      <EntityTypeMapping TypeName="PersonalAdministratorModel.Data_MeterValues">
+        <MappingFragment StoreEntitySet="Data_MeterValues">
+          <ScalarProperty Name="MeterValueId" ColumnName="MeterValueId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="MeterClassId" ColumnName="MeterClassId" />
+          <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Entities_ColdWaterMeterRecords">
+      <EntityTypeMapping TypeName="PersonalAdministratorModel.Entities_ColdWaterMeterRecords">
+        <MappingFragment StoreEntitySet="Entities_ColdWaterMeterRecords">
+          <ScalarProperty Name="ColdWaterMeterRecordId" ColumnName="ColdWaterMeterRecordId" />
+          <ScalarProperty Name="MeterValueId" ColumnName="MeterValueId" />
+          <ScalarProperty Name="MeterLocationId" ColumnName="MeterLocationId" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

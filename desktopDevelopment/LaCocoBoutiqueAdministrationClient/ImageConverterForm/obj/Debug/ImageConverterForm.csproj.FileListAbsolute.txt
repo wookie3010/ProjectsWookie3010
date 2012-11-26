@@ -1,0 +1,12 @@
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\bin\Debug\Image2ThumbnailWinFormApp.exe.config
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\bin\Debug\Image2ThumbnailWinFormApp.exe
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\bin\Debug\Image2ThumbnailWinFormApp.pdb
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\bin\Debug\ImageHelpers.dll
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\bin\Debug\ImageHelpers.pdb
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\obj\Debug\ImageConverterForm.csprojResolveAssemblyReference.cache
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\obj\Debug\Image2ThumbnailWinFormApp.Image2ThumbnailBatchSaverForm.resources
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\obj\Debug\Image2ThumbnailWinFormApp.Image2ThumbnailForm.resources
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\obj\Debug\Image2ThumbnailWinFormApp.Properties.Resources.resources
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\obj\Debug\ImageConverterForm.csproj.GenerateResource.Cache
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\obj\Debug\Image2ThumbnailWinFormApp.exe
+D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\obj\Debug\Image2ThumbnailWinFormApp.pdb

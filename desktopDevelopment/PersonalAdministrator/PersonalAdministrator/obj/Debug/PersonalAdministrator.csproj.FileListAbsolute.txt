@@ -1,0 +1,9 @@
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\bin\Debug\PersonalAdministrator.exe
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\bin\Debug\PersonalAdministrator.pdb
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\obj\Debug\PersonalAdministrator.Properties.Resources.resources
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\obj\Debug\PersonalAdministrator.csproj.GenerateResource.Cache
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\obj\Debug\PersonalAdministrator.exe
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\obj\Debug\PersonalAdministrator.pdb
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\bin\Debug\PersonalAdministrator.exe.config
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\obj\Debug\PersonalAdministrator.MainForm.resources
+D:\kellers\projects\desktopDevelopment\PersonalAdministrator\PersonalAdministrator\obj\Debug\PersonalAdministrator.csprojResolveAssemblyReference.cache

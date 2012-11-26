@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5EC72E2-5C65-4C70-8F5A-E12ACAB2A4BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ImageConverter</RootNamespace>
+    <AssemblyName>ImageConverter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ImageBatchSaverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageBatchSaverForm.Designer.cs">
+      <DependentUpon>ImageBatchSaverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageConverterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageConverterForm.Designer.cs">
+      <DependentUpon>ImageConverterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ImageBatchSaverForm.resx">
+      <DependentUpon>ImageBatchSaverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageConverterForm.resx">
+      <DependentUpon>ImageConverterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\ImageHelpers.ImageSizeConverter.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="files\DSC_0263.jpg" />
+    <Content Include="files\LC00026A.jpg" />
+    <Content Include="files\LC00026F2.jpg" />
+    <Content Include="files\LC00028B.jpg" />
+    <Content Include="files\LC00032B.jpg" />
+    <Content Include="files\LC00032D.jpg" />
+    <Content Include="files\LC00032F.jpg" />
+    <Content Include="files\LC00033A.jpg" />
+    <Content Include="files\LC00033D.jpg" />
+    <Content Include="files\LC00036C.jpg" />
+    <Content Include="files\LC00038A.jpg" />
+    <Content Include="files\LC00039B.jpg" />
+    <Content Include="files\LC00042A.jpg" />
+    <Content Include="files\LC00042B.jpg" />
+    <Content Include="files\LC00042C.jpg" />
+    <Content Include="files\LC00042D.jpg" />
+    <Content Include="files\LC00043A.jpg" />
+    <Content Include="files\LC00047D.jpg" />
+    <Content Include="files\LC0009C.jpg" />
+    <Content Include="files\LC00141A.jpg" />
+    <Content Include="files\LC00144B.jpg" />
+    <Content Include="files\LC00148B.jpg" />
+    <Content Include="files\LC00148C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="files\thumbnails\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ImageHelpers\ImageHelpers.csproj">
+      <Project>{9886bba1-42ad-486a-9fbb-c3e52e964712}</Project>
+      <Name>ImageHelpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+D:\projects\TestPanelDataExchange\NetVarCommLib\bin\Debug\NetVarCommLib.dll
+D:\projects\TestPanelDataExchange\NetVarCommLib\bin\Debug\NetVarCommLib.pdb
+D:\projects\TestPanelDataExchange\NetVarCommLib\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\TestPanelDataExchange\NetVarCommLib\obj\Debug\NetVarCommLib.dll
+D:\projects\TestPanelDataExchange\NetVarCommLib\obj\Debug\NetVarCommLib.pdb

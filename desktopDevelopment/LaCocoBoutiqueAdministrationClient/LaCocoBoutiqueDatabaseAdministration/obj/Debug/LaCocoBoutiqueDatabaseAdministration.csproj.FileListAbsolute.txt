@@ -1,0 +1,3 @@
+D:\kellers\projects\testEnvironment\TestApp\LaCocoBoutiqueDatabaseAdministration\bin\Debug\LaCocoBoutiqueAdministration.exe.config
+D:\kellers\projects\testEnvironment\TestApp\LaCocoBoutiqueDatabaseAdministration\obj\Debug\LaCocoBoutiqueAdministration.exe
+D:\kellers\projects\testEnvironment\TestApp\LaCocoBoutiqueDatabaseAdministration\obj\Debug\LaCocoBoutiqueAdministration.pdb

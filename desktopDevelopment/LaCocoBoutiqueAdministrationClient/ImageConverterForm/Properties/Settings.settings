@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ImageConverter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OriginalImagesBaseDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\files</Value>
+    </Setting>
+    <Setting Name="ThumbnailImagesBaseDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\kellers\projects\testEnvironment\TestApp\ImageConverterForm\files\thumbnails</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

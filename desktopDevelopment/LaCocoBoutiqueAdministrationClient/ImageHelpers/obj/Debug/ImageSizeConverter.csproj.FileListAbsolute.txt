@@ -1,0 +1,5 @@
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageSizeConverter\bin\Debug\ImageSizeConverter.dll
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageSizeConverter\bin\Debug\ImageSizeConverter.pdb
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageSizeConverter\obj\Debug\ImageSizeConverter.dll
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageSizeConverter\obj\Debug\ImageSizeConverter.pdb
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageSizeConverter\obj\Debug\ImageSizeConverter.csprojResolveAssemblyReference.cache

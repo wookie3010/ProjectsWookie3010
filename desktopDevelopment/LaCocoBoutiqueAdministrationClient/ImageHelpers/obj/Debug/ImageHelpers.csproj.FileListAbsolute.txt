@@ -1,0 +1,9 @@
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageHelpers\bin\Debug\ImageHelpers.dll
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageHelpers\bin\Debug\ImageHelpers.pdb
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageHelpers\obj\Debug\ImageHelpers.dll
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\ImageHelpers\obj\Debug\ImageHelpers.pdb
+D:\kellers\projects\testEnvironment\TestApp\ImageHelpers\bin\Debug\ImageHelpers.dll
+D:\kellers\projects\testEnvironment\TestApp\ImageHelpers\bin\Debug\ImageHelpers.pdb
+D:\kellers\projects\testEnvironment\TestApp\ImageHelpers\obj\Debug\ImageHelpers.csprojResolveAssemblyReference.cache
+D:\kellers\projects\testEnvironment\TestApp\ImageHelpers\obj\Debug\ImageHelpers.dll
+D:\kellers\projects\testEnvironment\TestApp\ImageHelpers\obj\Debug\ImageHelpers.pdb

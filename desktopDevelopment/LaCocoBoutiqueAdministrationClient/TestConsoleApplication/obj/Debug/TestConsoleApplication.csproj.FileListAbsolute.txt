@@ -1,0 +1,5 @@
+D:\kellers\projects\testEnvironment\TestApp\TestConsoleApplication\bin\Debug\TestConsoleApplication.exe
+D:\kellers\projects\testEnvironment\TestApp\TestConsoleApplication\bin\Debug\TestConsoleApplication.pdb
+D:\kellers\projects\testEnvironment\TestApp\TestConsoleApplication\obj\Debug\TestConsoleApplication.csprojResolveAssemblyReference.cache
+D:\kellers\projects\testEnvironment\TestApp\TestConsoleApplication\obj\Debug\TestConsoleApplication.exe
+D:\kellers\projects\testEnvironment\TestApp\TestConsoleApplication\obj\Debug\TestConsoleApplication.pdb

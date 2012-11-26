@@ -1,0 +1,9 @@
+D:\projects\TestPanelDataExchange\DebugApplication\bin\Debug\TestPanelCommLib.exe
+D:\projects\TestPanelDataExchange\DebugApplication\bin\Debug\TestPanelCommLib.pdb
+D:\projects\TestPanelDataExchange\DebugApplication\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\projects\TestPanelDataExchange\DebugApplication\obj\x86\Debug\TestPanelCommLib.MainDebugForm.resources
+D:\projects\TestPanelDataExchange\DebugApplication\obj\x86\Debug\TestPanelCommLib.Properties.Resources.resources
+D:\projects\TestPanelDataExchange\DebugApplication\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\projects\TestPanelDataExchange\DebugApplication\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\projects\TestPanelDataExchange\DebugApplication\obj\x86\Debug\TestPanelCommLib.exe
+D:\projects\TestPanelDataExchange\DebugApplication\obj\x86\Debug\TestPanelCommLib.pdb

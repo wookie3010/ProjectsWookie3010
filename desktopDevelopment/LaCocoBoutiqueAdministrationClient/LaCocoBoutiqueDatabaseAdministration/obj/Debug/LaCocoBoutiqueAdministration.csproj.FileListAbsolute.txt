@@ -1,0 +1,10 @@
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\LaCocoBoutiqueAdministration.Properties.Resources.resources
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\LaCocoBoutiqueAdministration.csproj.GenerateResource.Cache
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\LaCocoBoutiqueAdministration.InsertProductToProductsTableForm.resources
+D:\kellers\projects\testEnvironment\TestApp\TestApp\bin\Debug\LaCocoBoutiqueAdministration.exe.config
+D:\kellers\projects\testEnvironment\TestApp\TestApp\bin\Debug\LaCocoBoutiqueAdministration.exe
+D:\kellers\projects\testEnvironment\TestApp\TestApp\bin\Debug\LaCocoBoutiqueAdministration.pdb
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\LaCocoBoutiqueAdministration.exe
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\LaCocoBoutiqueAdministration.pdb
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\LaCocoBoutiqueAdministration.ValueSetterForm.resources
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\LaCocoBoutiqueAdministration.csprojResolveAssemblyReference.cache

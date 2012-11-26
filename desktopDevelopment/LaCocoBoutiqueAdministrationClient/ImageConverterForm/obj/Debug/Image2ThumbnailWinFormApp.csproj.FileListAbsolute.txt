@@ -1,0 +1,12 @@
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\bin\Debug\Image2ThumbnailWinFormApp.exe.config
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\bin\Debug\Image2ThumbnailWinFormApp.exe
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\bin\Debug\Image2ThumbnailWinFormApp.pdb
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\bin\Debug\ImageHelpers.dll
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\bin\Debug\ImageHelpers.pdb
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\obj\Debug\Image2ThumbnailWinFormApp.csprojResolveAssemblyReference.cache
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\obj\Debug\Image2ThumbnailWinFormApp.Image2ThumbnailBatchSaverForm.resources
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\obj\Debug\Image2ThumbnailWinFormApp.Image2ThumbnailForm.resources
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\obj\Debug\Image2ThumbnailWinFormApp.Properties.Resources.resources
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\obj\Debug\Image2ThumbnailWinFormApp.csproj.GenerateResource.Cache
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\obj\Debug\Image2ThumbnailWinFormApp.exe
+C:\Users\kellers_2\Documents\Visual Studio 2012\Projects\SqlServerConnection\Image2ThumbnailWinFormApp\obj\Debug\Image2ThumbnailWinFormApp.pdb

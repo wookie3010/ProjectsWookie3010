@@ -1,0 +1,9 @@
+D:\kellers\projects\testEnvironment\TestApp\TestApp\bin\Debug\TestApp.exe.config
+D:\kellers\projects\testEnvironment\TestApp\TestApp\bin\Debug\TestApp.exe
+D:\kellers\projects\testEnvironment\TestApp\TestApp\bin\Debug\TestApp.pdb
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\TestApp.exe
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\TestApp.pdb
+D:\kellers\projects\testEnvironment\TestApp\TestApp\obj\Debug\TestApp.InsertProductToProductsTableForm.resources
+D:\kellers\projects\testEnvironment\TestApp\TestApp\bin\Debug\LaCocoBoutiqueAdministration.exe.config

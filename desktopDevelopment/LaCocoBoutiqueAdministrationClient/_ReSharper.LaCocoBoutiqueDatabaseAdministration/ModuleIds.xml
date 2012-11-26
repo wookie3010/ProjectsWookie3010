@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="D5EC72E2-5C65-4C70-8F5A-E12ACAB2A4BC" ModuleId="ImageConverterForm" />
+  <Module PersistentId="9886BBA1-42AD-486A-9FBB-C3E52E964712" ModuleId="ImageHelpers" />
+  <Module PersistentId="708A9A1F-005F-4EE3-99A4-BF2B63970853" ModuleId="LaCocoBoutiqueDatabaseAdministrationClient" />
+  <Module PersistentId="9E4BC257-EEA3-4830-BC89-CA3014FC6A4D" ModuleId="TestConsoleApplication" />
+</Modules>

@@ -1,0 +1,16 @@
+c:\users\kes\documents\visual studio 2010\Projects\WorkingTimeObserver\WorkingTimeObserver\bin\Debug\WorkingTimeObserver.exe
+c:\users\kes\documents\visual studio 2010\Projects\WorkingTimeObserver\WorkingTimeObserver\bin\Debug\WorkingTimeObserver.pdb
+c:\users\kes\documents\visual studio 2010\Projects\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.Properties.Resources.resources
+c:\users\kes\documents\visual studio 2010\Projects\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.csproj.GenerateResource.Cache
+c:\users\kes\documents\visual studio 2010\Projects\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.exe
+c:\users\kes\documents\visual studio 2010\Projects\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.pdb
+c:\users\kes\documents\visual studio 2010\Projects\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.WorkingTimeObserverForm.resources
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.WorkingTimeObserverForm.resources
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.Properties.Resources.resources
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.csproj.GenerateResource.Cache
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\bin\Debug\WorkingTimeObserver.exe.config
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\bin\Debug\WorkingTimeObserver.exe
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\bin\Debug\WorkingTimeObserver.pdb
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.exe
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.pdb
+D:\kellers\projects\desktopDevelopment\WorkingTimeObserver\WorkingTimeObserver\obj\x86\Debug\WorkingTimeObserver.csprojResolveAssemblyReference.cache
